@@ -1,0 +1,136 @@
+@font-face{
+	font-family: snd;
+	src:url(../fonts/Shentox_Bold_Typeface.otf);
+}
+
+@font-face{
+	font-family: snd light;
+	src:url(../fonts/Shentox_Light_Typeface.otf);
+}
+
+
+	
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	width: 100%;
+	height: 218px;
+	display: flow-root;
+	background-color: black;
+
+}
+.inner-header{
+	width: 1000px;
+	height: 100%;
+	
+	margin: 0 auto;
+	
+
+}
+.logo{
+
+	height: 100%;
+	
+	float: left;
+}
+
+.logo img{
+	width: 25%;
+    position: relative;
+    top: 74px;
+}
+
+.logo h1{
+	position: relative;
+    left: 81px;
+    top: 5px;
+    font-family: snd;
+    color: white;
+    font-size: 29px;
+}
+.logo h1 span{
+	position: relative;
+    top: 26px;
+    right: 60px;
+    font-family: snd light;
+    color: white;
+    font-size: 29px;
+    font-weight: 100;
+}
+
+.right-heading h1{
+	float: right;
+    position: relative;
+    top: 54px;
+    font-size: 63px;
+    font-family: snd;
+     color: white;
+}
+.right-heading h2{
+	float: right;
+    position: relative;
+    top: 119px;
+    left: 313px;
+    font-size: 24px;
+    font-family: snd light;
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+	
+}
+.right-heading h2 span{
+	position: relative;
+    top: 18px;
+    right: 133px;
+    font-size: 25px;
+    color: white;
+    font-size: 17px;
+}
+.headset{
+	
+	width: 100%;
+}
+
+.headset img{
+	position: absolute;
+    left: 440px;
+    top: 72px;
+    width: 38%;
+}
+
+.controloader img{
+	    position: absolute;
+    
+    left: 0px;
+    top: 458px;
+}
+
+.middle-text p{
+    width: 100%;
+  
+    background: #f0f0f0;
+    text-align: center;
+    letter-spacing: 0px;
+    padding: 20px 0;
+   	font-family: snd light;
+    position: relative;
+    top: 466px;
+    background-color: red;
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+}
+
+.lower-text {
+	
+    width: 100%;
+    float: left;	
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
